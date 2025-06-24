@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Status } from './Status';
+import React, { useState } from "react";
+import { Status } from "./Status";
 
 export const App = () => {
-  let [messages, setMessages] = useState(['test', 'test2']);
+  let [messages, setMessages] = useState(["test", "test2"]);
 
   return (
     <div>

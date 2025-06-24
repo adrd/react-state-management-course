@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import { App } from './current/App';
+// import { App } from './current/App';
 
 /* 
   View the reference code for each lesson
   Uncomment the line below, and comment out line #4
 */
 
-//import {App} from './01-useState/App'
+import { App } from "./01-useState/App";
 //import {App} from './02-useReducer/App'
 //import {App} from './03-useContext/App'
 //import {App} from './04-useEffect/App'
@@ -29,5 +29,5 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root'),
+  document.getElementById("root")
 );

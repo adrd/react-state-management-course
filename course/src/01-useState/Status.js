@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 export const Status = ({ onEnter }) => {
-  let [message, setMessage] = useState('');
+  let [message, setMessage] = useState("");
 
   return (
     <input
@@ -10,7 +10,7 @@ export const Status = ({ onEnter }) => {
       onKeyUp={(e) => {
         if (e.keyCode === 13) {
           onEnter(message);
-          setMessage('');
+          setMessage("");
         }
       }}
       onChange={(e) => setMessage(e.target.value)}
