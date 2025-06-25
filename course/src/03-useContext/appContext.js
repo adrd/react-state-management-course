@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState } from "react";
 
 const AppContext = React.createContext();
 
@@ -6,6 +6,8 @@ export const useAppContext = () => useContext(AppContext);
 
 export const AppProvider = ({ children }) => {
   let [state, setState] = useState({});
+
+  console.log(state);
 
   return (
     <AppContext.Provider
