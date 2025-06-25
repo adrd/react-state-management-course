@@ -12,8 +12,8 @@ import ReactDOM from "react-dom";
 // import { App } from "./02-useReducer/App";
 // import { App } from "./03-useContext/App";
 // import { App } from "./04-useEffect/App";
-import { App } from "./05-encapsulate-state/App";
-//import {App} from './06-useNetwork/App'
+// import { App } from "./05-encapsulate-state/App";
+import { App } from "./06-useNetwork/App";
 //import {App} from './07-useStorage/App'
 //import {App} from './11-whats-app/App'
 //import {App} from './12-whats-app-reducer/App'
