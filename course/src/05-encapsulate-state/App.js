@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
-import { usePicture } from './usePicture';
+import React, { useState } from "react";
+import { usePicture } from "./usePicture";
 
 export const App = () => {
-  let [date, setDate] = useState('2020-05-05');
+  console.log("App component start executing...");
+
+  let [date, setDate] = useState("2020-05-05");
   let picture = usePicture(date);
 
   if (!picture) return <div>Loading...</div>;
